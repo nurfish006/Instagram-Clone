@@ -1,15 +1,20 @@
 export type User = {
-  id: string;
   username: string;
-  avatar: string;
+  avatar?: string; // optional because not all users (like comment ones) need it
+};
+
+export type Comment = {
+  id: number;
+  user: User;
+  text: string;
 };
 
 export type Post = {
-  id: string;
+  id: number;
   user: User;
+  time: string;
   image: string;
   caption: string;
   likes: number;
-  comments: number;
-  time: string;
+  comments: Comment[];
 };
