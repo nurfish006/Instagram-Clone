@@ -12,7 +12,7 @@ import SidebarItem from "./SidebarItem";
 
 export default function Sidebar() {
   return (
-    <aside className="w-80 h-screen border-r bg-white p-4 flex flex-col space-y-2">
+    <aside className="w-80 h-screen border-r border-gray-300 bg-white p-4 flex flex-col space-y-2">
       <h1 className="text-2xl font-bold mb-6">Instagram</h1>
 
       <SidebarItem icon={<AiFillHome />} label="Home" active />

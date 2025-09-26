@@ -11,7 +11,7 @@ export default function RightSidebar() {
   ];
 
   return (
-    <aside className="hidden lg:block w-80 p-6 border-l bg-white text-gray-900">
+    <aside className="hidden lg:block w-80 p-6 bg-white text-gray-900">
       {/* Profile header */}
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center gap-3">
@@ -21,8 +21,8 @@ export default function RightSidebar() {
             className="w-12 h-12 rounded-full object-cover"
           />
           <div>
-            <p className="text-sm font-medium">upvox_</p>
-            <p className="text-xs text-gray-500">Upvox</p>
+            <p className="text-sm font-medium">Nure</p>
+            <p className="text-xs text-gray-500">Nure</p>
           </div>
         </div>
         <button className="text-xs font-semibold text-blue-500">Switch</button>

@@ -29,7 +29,7 @@ export default function PostCard({ post }: Props) {
   };
 
   return (
-    <article className="bg-white rounded-2xl shadow-sm mb-6 border">
+    <article className="bg-white rounded-2xl shadow-sm mb-6">
       {/* Header */}
       <header className="flex items-center justify-between p-4">
         <div className="flex items-center gap-3">

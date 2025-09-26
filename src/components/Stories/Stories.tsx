@@ -12,7 +12,7 @@ export default function Stories() {
   ];
 
   return (
-    <div className="flex space-x-4 overflow-x-auto scrollbar-hide p-3 bg-white  rounded-lg mb-6">
+    <div className="flex space-x-4 overflow-x-auto scrollbar-hide p-3 bg-white w-full rounded-lg mb-6">
       {stories.map((story, idx) => (
         <StoryItem key={idx} {...story} />
       ))}
